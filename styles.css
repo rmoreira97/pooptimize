@@ -1,0 +1,11 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.section {
+    transition: transform 0.5s ease-in-out;
+}
+.section:hover {
+    transform: scale(1.05);
+}
